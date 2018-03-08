@@ -1,0 +1,12 @@
+{
+  "name": "carlo-joinpiggy/rfid",
+  "autoload": {
+    "psr-4": {
+      "\\src": "src"
+    }
+  },
+
+  "require": {
+    "lepiaf/serialport": "^1"
+  }
+}

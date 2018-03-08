@@ -2,7 +2,7 @@
   "name": "carlo-joinpiggy/rfid",
   "autoload": {
     "psr-4": {
-      "\\src": "src"
+      "\\Rfid": "src"
     }
   },
 

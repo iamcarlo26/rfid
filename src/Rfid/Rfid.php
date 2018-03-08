@@ -14,10 +14,13 @@ class Rfid
 {
     private $serialPort;
     private $tty;
+    private $configure;
 
     function __construct($tty)
     {
-        $this->serialPort = new SerialPort(new SeparatorParser(), new TTYConfigure());
+        $this->configure = new TTYConfigure();
+        $this->configure->setOption("9600");
+        $this->serialPort = new SerialPort(new SeparatorParser(), $this->configure);
 
         if (isset($tty)) {
             $this->tty = $tty;

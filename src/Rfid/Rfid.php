@@ -16,7 +16,7 @@ class Rfid
     private $tty;
     private $configure;
 
-    function __construct($tty)
+    public function __construct($tty)
     {
         $this->configure = new TTYConfigure();
         $this->configure->setOption("9600");
@@ -34,9 +34,7 @@ class Rfid
 
     public function readFromSerial()
     {
-        $data = $this->serialPort->read();
-
-        return $data;
+        return $this->serialPort->read();
     }
 
     public function closeSerial()

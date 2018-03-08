@@ -24,9 +24,9 @@ class Rfid
         }
     }
 
-    public function openSerial($tty)
+    public function openSerial()
     {
-        $this->serialPort->open($tty);
+        $this->serialPort->open($this->tty);
     }
 
     public function readFromSerial()

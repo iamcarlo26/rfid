@@ -1,5 +1,18 @@
 {
   "name": "carlo-joinpiggy/rfid",
+  "description": "RFID Reader",
+  "keywords": [
+    "rfid",
+    "ama"
+  ],
+  "license": "PRIV",
+  "authors": [
+    {
+      "name": "Carlo Roxas",
+      "email": "iam@carloroxas.com"
+    }
+  ],
+  "type": "project",
   "autoload": {
     "psr-4": {
       "\\Rfid": "src"

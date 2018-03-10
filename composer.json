@@ -15,7 +15,9 @@
   "type": "project",
   "autoload": {
     "psr-4": {
-      "\\Rfid": "src"
+      "": [
+        "src/"
+      ]
     }
   },
 

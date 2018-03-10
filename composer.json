@@ -5,7 +5,7 @@
     "rfid",
     "ama"
   ],
-  "license": "PRIV",
+  "license": "MIT",
   "authors": [
     {
       "name": "Carlo Roxas",

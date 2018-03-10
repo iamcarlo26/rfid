@@ -1,6 +1,6 @@
 {
   "name": "carlo-joinpiggy/rfid",
-  "description": "RFID Reader",
+  "description": "RFID Serial Reader",
   "keywords": [
     "rfid",
     "ama"
@@ -20,6 +20,7 @@
   },
 
   "require": {
+    "php": "^7.0",
     "lepiaf/serialport": "^1"
   }
 }
